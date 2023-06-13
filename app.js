@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(fileUpload());
 const corsOptions = {
     origin: 'http://localhost:3000',
+    origin: 'https://doctorinfo.netlify.app',
     'Content-Type': 'Authorization',
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200
